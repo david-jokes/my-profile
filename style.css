@@ -1,0 +1,111 @@
+body {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  font-size: 17px;
+  /* background: #FEFFFE; */
+  background: #fcfcfc;
+  color: #273C2C;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #273C2C;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover{
+  color: black
+} 
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #EA9010;
+  font-weight: 200;
+  letter-spacing: 9px;
+  font-size: 30px;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: lighter;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+/* Custom design with classes and ID's */
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px){
+  .container{
+    width: 600px;
+  }
+}
+
+.box-white{
+  background: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#btn-blue{
+  background: #EA9010;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px; 
+}
+
+#btn-blue:hover{
+  color: white;
+  background: black;
+}
+
+#list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+#list-inline li{
+  display: inline;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#list-inline i{
+  font-size: 30px;
+  color: lightgray;
+}
+
+#list-inline i:hover{
+  color: lightslategray;
+}
+
+/* Very specific adjustments */
+#introduction p{
+  margin-bottom: 40px;
+}
